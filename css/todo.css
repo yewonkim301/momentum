@@ -1,0 +1,46 @@
+#todo {
+    display:flex;
+    flex-direction: column; 
+    height: 100%;
+    overflow: hidden;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    width:80%;
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border:none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#todo-list {
+    overflow: auto;
+}
+
+#todo-list li {
+    width: 80%;
+    font-size: 17px;
+    margin-bottom: 8px;
+    display: flex; 
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.todo-check {
+    text-decoration-line: line-through;
+}
+

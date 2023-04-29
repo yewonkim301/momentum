@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+@import "background.css";
+@import "clock.css";
+@import "login-form.css";
+@import "quotes.css";
+@import "user-login.css";
+@import "todo.css";
+@import "weather.css";
+
+body {
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.hidden {
+    visibility: hidden;
+}

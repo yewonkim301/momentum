@@ -1,0 +1,33 @@
+#login-form {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#login-form input:first-child {
+    border: none;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 17px;
+    margin-right:5px;
+    width:35%;
+}
+
+#login-form input:first-child::placeholder,
+#login-form input:last-child  {
+    text-align: center;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+#login-form input:first-child:focus {
+    outline:none;
+    border:2px solid rgba(0,0,0,0.25);
+}
+
+#login-form input:last-child {
+    border:none;
+    width:10%;
+}

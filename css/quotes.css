@@ -1,0 +1,30 @@
+#quote {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote__content {
+    height:70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    word-break: keep-all;
+}
+
+#quote__content span{
+    width: 70%;
+}
+    
+
+
+#quote__content span:last-child {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 10px;
+}
